@@ -1,0 +1,32 @@
+<md-grid-list
+            md-cols-xs="1" md-cols-sm="4" md-cols-md="6" md-cols-gt-md="6"
+            md-row-height-gt-md="1:1" md-row-height="2:2"
+            md-gutter="12px" md-gutter-gt-sm="8px" >
+        <md-grid-tile style='background-image: url("images/dna.jpg"); background-size: cover;'
+            md-rowspan="1" md-colspan="3" md-colspan-sm="4">
+        </md-grid-tile>
+        <md-grid-tile class="tile" md-rowspan="1" md-colspan="3" md-colspan-sm="4"
+                      ng-click="changePage('partials/project.html', 'navproject')">
+            <h3>What is?</h3>
+        </md-grid-tile>
+        <md-grid-tile class="tile" md-rowspan="2" md-colspan="4" md-colspan-sm="4"
+                      ng-click="changePage('partials/project.html', 'navproject')">
+            <h3>Video</h3>
+        </md-grid-tile>
+        <md-grid-tile class="tile"
+            md-rowspan="2" md-colspan="2" md-colspan-sm="2">
+            <h3>Our Team</h3>
+        </md-grid-tile>
+            <md-grid-tile class="tile"
+            md-rowspan="2" md-colspan="3" md-colspan-sm="2">
+            <h3>Project</h3>
+        </md-grid-tile>
+            <md-grid-tile class="tile"
+            md-rowspan="2" md-colspan="3" md-colspan-sm="1">
+            <h3>Lab Book</h3>
+        </md-grid-tile>
+            <md-grid-tile class="tile"
+            md-rowspan="2" md-colspan="6" md-colspan-sm="3">
+            <h3>Gallery</h3>
+        </md-grid-tile>
+</md-grid-list>

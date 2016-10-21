@@ -1,0 +1,55 @@
+.sponsor-image-toronto {
+    height: 100px;
+    width: 40%;
+    position: absolute;
+    top:120px; 
+    margin-left:30px;
+}
+
+.sponsor-image-toronto:hover {
+    height: 110px;
+    width: auto;
+}
+
+.sponsor-image-bay {
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    top:250px; 
+    margin-left:80px
+}
+
+.sponsor-image-bay:hover {
+    height: 110px;
+    width: auto;
+}
+
+.test-image{
+    height: 100px;
+    width: 100px;
+}
+
+.fading-image{
+    opacity: 1.0;
+    -o-transition:opacity .2s ease-out, opacity 0.5s ease-in;
+    -ms-transition:opacity .2s ease-out, opacity 0.5s ease-in;
+    -moz-transition:opacity .2s ease-out, opacity 0.5s ease-in;
+    -webkit-transition:opacity .2s ease-out, opacity 0.5s ease-in;
+    transition:opacity .2s ease-out, opacity 0.5s ease-in;
+    width: 100%;
+    height: 100%; 
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 200;
+}
+
+.fading-image:hover{
+    opacity: 0.4;
+}
+
+.carousel-image{
+      width: auto;
+      height: 260px;
+      max-height: 260px;
+}
